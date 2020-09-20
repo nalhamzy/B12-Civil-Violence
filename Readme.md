@@ -7,10 +7,10 @@ initial_unemployment_rate = 0.2,
 corruption_level = 0.1,
 susceptible_level = 0.6,
 
-Each citizen can have one of four states {Suciptible, Honest, Jailed, Corrupted}.  Citizens can be employed/unemployed based on the given initial_unemployment_rate. 
+Each citizen can have one of four states {Susceptible, Honest, Jailed, Corrupted}.  Citizens can be employed/unemployed based on the given initial_unemployment_rate. 
 
-The corrupted agents can influence other Suciptible agents with a certain probability to become corrupted. 
-The corrupted agents also alters the employment rate. They can assign a job to a newly corrupted agent and take a job from other non corrupted agents with a certain probability. 
+The corrupted agents can influence other susceptible agents with a certain probability to become corrupted. 
+The corrupted agents also alter the employment rate. They can assign a job to a newly corrupted agent and take a job from other non corrupted agents with a certain probability. 
 
 
 ## Files
@@ -19,7 +19,6 @@ The corrupted agents also alters the employment rate. They can assign a job to a
 * ``EpsteinCivilViolenceServer.py``: Sets up the interactive visualization.
 * ``Epstein Civil Violence.ipynb``: Jupyter notebook conducting some preliminary analysis of the model.
 
-## Further Reading
 
 This model is based adapted from:
 
